@@ -34,6 +34,7 @@ public class Extentreports {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com/");
 		driver.getTitle();
+		System.out.println(driver.getCurrentUrl());
 		extent.flush();
 	}
 }
